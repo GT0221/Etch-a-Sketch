@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <meta charset="UTF-8">
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    
+    <body>
+        <div class='settings'>
+            <div>
+                <h1>Etch-a-Sketch</h1>
+                <p>Click once on any square to start drawing</p>
+                <p>Click again to stop</p>
+            </div>
+            <button id='reset'>Reset</button>
+            <p>Color: <input type='color' id='color-input'></p>
+            <div>
+                <p id='size-value'>Squares per Side:</p>
+                <input type='range' min='1' max='100' id='slider'>
+            </div>
+        </div>
+
+        <div class='container'>
+
+        </div>
+    </body>
+    <script src='script.js'></script>
+</html>
